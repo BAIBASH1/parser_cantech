@@ -314,7 +314,7 @@ def url_catalogs():
 
 async def main():
     # parse_url_goods()
-    with open('goods_urls.txt', 'r') as file:
+    with open('finally_goods_urls.txt', 'r') as file:
         urls = file.readlines()
 
     splitted_urls = split_list(urls, 10)
